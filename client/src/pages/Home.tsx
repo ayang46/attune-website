@@ -3,43 +3,45 @@ import { Card } from "@/components/ui/card";
 import { ChevronRight, Linkedin, TrendingUp, Users, Target, Zap } from "lucide-react";
 
 export default function Home() {
+  const baseUrl = import.meta.env.BASE_URL;
+  const publicAsset = (path: string) => `${baseUrl}${path.replace(/^\//, "")}`;
   const partnerFormUrl = "https://forms.gle/6JWYVZzstsXab9P18";
-  const whitePaperUrl = "/docs/attune_white_paper.pdf";
+  const whitePaperUrl = publicAsset("/docs/attune_white_paper.pdf");
   const teamMembers = [
     {
       name: "Ashley Yang",
       role: "Product & Neurobehavioral Design",
-      photo: "/team/ashley-yang.jpg",
+      photo: publicAsset("/team/ashley-yang.jpg"),
       linkedin: "https://www.linkedin.com/in/ashleyyang2027/",
     },
     {
       name: "Tanisha Dalwadi",
       role: "XR Systems & Human-Computer Interaction",
-      photo: "/team/tanisha-dalwadi.jpg",
+      photo: publicAsset("/team/tanisha-dalwadi.jpg"),
       linkedin: "#",
     },
     {
       name: "Joshua Perez",
       role: "EMG Hardware Systems",
-      photo: "/team/joshua-perez.jpg",
+      photo: publicAsset("/team/joshua-perez.jpg"),
       linkedin: "#",
     },
     {
       name: "Taylor Foster",
       role: "Human Systems Engineering",
-      photo: "/team/taylor-foster.jpg",
+      photo: publicAsset("/team/taylor-foster.jpg"),
       linkedin: "#",
     },
     {
       name: "Barnabas Pasztor",
       role: "Neurophysiology & Business Development",
-      photo: "/team/barnabas-pasztor.jpg",
+      photo: publicAsset("/team/barnabas-pasztor.jpg"),
       linkedin: "#",
     },
     {
       name: "Alexander Lumala",
       role: "Software Engineering",
-      photo: "/team/alexander-lumala.jpg",
+      photo: publicAsset("/team/alexander-lumala.jpg"),
       linkedin: "#",
     },
   ];
@@ -51,7 +53,7 @@ export default function Home() {
         <div className="container mx-auto px-8 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img
-              src="/logo.png"
+              src={publicAsset("/logo.png")}
               alt="Attune logo"
               className="w-10 h-10 rounded-full object-contain bg-[#0f1e2b] p-1 border border-[#263b52]"
             />
@@ -383,7 +385,7 @@ export default function Home() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-[#ffbd59]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
             <img
-              src="/dashboard.png"
+              src={publicAsset("/dashboard.png")}
               alt="Clinician Dashboard"
               className="w-full h-auto rounded-lg shadow-2xl"
             />
@@ -420,7 +422,7 @@ export default function Home() {
           <div className="relative max-w-4xl mx-auto">
             <div className="relative aspect-video rounded-lg overflow-hidden bg-[#1b2f44] border border-[#2a3f58]">
               <video className="w-full h-full object-cover" controls playsInline preload="metadata">
-                <source src="/video/attune-video.mp4" type="video/mp4" />
+                <source src={publicAsset("/video/attune-video.mp4")} type="video/mp4" />
               </video>
             </div>
           </div>
@@ -649,7 +651,7 @@ export default function Home() {
           <p className="text-white/80 mb-12 text-lg">Built at The Luminosity Lab</p>
           <div className="mb-12">
             <img
-              src="/team/team-photo.jpg"
+              src={publicAsset("/team/team-photo.jpg")}
               alt="Attune team"
               className="w-full rounded-2xl border border-[#2a3f58] shadow-2xl"
               loading="lazy"
@@ -660,12 +662,12 @@ export default function Home() {
             {teamMembers.map((member, i) => (
               <div key={i} className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
                 <img
-                  src={member.photo || "/logo.png"}
+                  src={member.photo || publicAsset("/logo.png")}
                   alt={member.name}
                   className="w-28 h-28 rounded-full object-cover border border-[#2a3f58] mb-5"
                   loading="lazy"
                   onError={(event) => {
-                    event.currentTarget.src = "/logo.png";
+                    event.currentTarget.src = publicAsset("/logo.png");
                   }}
                 />
                 <h3 className="font-bold text-xl mb-1">{member.name}</h3>
@@ -712,7 +714,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <img
-                  src="/logo.png"
+                  src={publicAsset("/logo.png")}
                   alt="Attune logo"
                   className="w-8 h-8 rounded-full object-contain bg-[#0f1e2b] p-1 border border-[#263b52]"
                 />
