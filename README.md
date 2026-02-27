@@ -132,7 +132,6 @@ The website uses a dark theme with the color scheme:
 
 ## Contact
 
-- Email: hello@attunetraining.com
 - Built at: The Luminosity Lab
 
 ---
