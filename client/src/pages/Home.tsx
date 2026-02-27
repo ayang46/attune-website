@@ -100,7 +100,7 @@ export default function Home() {
             </h1>
 
             <p className="text-xl text-white/80 leading-relaxed max-w-2xl mx-auto">
-              Attune is the first pre-prosthetic EMG training platform preparing amputees for myoelectric control — before their device arrives.
+              Attune is a pre-prosthetic EMG training platform preparing amputees for myoelectric control — before their device arrives.
             </p>
 
             <p className="text-lg text-white/70 leading-relaxed max-w-2xl mx-auto font-medium">
