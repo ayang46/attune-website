@@ -30,7 +30,7 @@ export default function Home() {
       name: "Taylor Foster",
       role: "Human Systems Engineering",
       photo: publicAsset("/team/taylor-foster.jpg"),
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/taylor-foster-human-centered-design/",
     },
     {
       name: "Barnabas Pasztor",
@@ -60,23 +60,23 @@ export default function Home() {
             <span className="text-xl font-bold tracking-tight">ATTUNE</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#product" className="text-sm hover:text-[#ffbd59] transition-colors">
+            <a href="#product" className="text-sm hover:text-[#f6e7d8] transition-colors">
               PRODUCT
             </a>
-            <a href="#how-it-works" className="text-sm hover:text-[#ffbd59] transition-colors">
+            <a href="#how-it-works" className="text-sm hover:text-[#f6e7d8] transition-colors">
               HOW IT WORKS
             </a>
-            <a href="#market" className="text-sm hover:text-[#ffbd59] transition-colors">
+            <a href="#market" className="text-sm hover:text-[#f6e7d8] transition-colors">
               MARKET
             </a>
-            <a href="#team" className="text-sm hover:text-[#ffbd59] transition-colors">
+            <a href="#team" className="text-sm hover:text-[#f6e7d8] transition-colors">
               TEAM
             </a>
-            <a href="#roadmap" className="text-sm hover:text-[#ffbd59] transition-colors">
+            <a href="#roadmap" className="text-sm hover:text-[#f6e7d8] transition-colors">
               ROADMAP
             </a>
           </div>
-          <Button asChild className="bg-[#ffbd59] hover:bg-[#f0b34f] text-[#1b2f44] font-semibold">
+          <Button asChild className="bg-[#f6e7d8] hover:bg-[#edd5bf] text-[#1b2f44] font-semibold">
             <a href={partnerFormUrl} target="_blank" rel="noreferrer">
               Partner With Us
             </a>
@@ -86,11 +86,11 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-[#ffbd59]/10 to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#f6e7d8]/10 to-transparent pointer-events-none" />
         <div className="container mx-auto px-8">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <div className="inline-block">
-              <div className="px-4 py-2 rounded-full border border-[#ffbd59]/30 bg-[#ffbd59]/10 text-[#ffbd59] text-sm font-medium">
+              <div className="px-4 py-2 rounded-full border border-[#f6e7d8]/30 bg-[#f6e7d8]/10 text-[#f6e7d8] text-sm font-medium">
                 THE LUMINOSITY LAB
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <Button
                 asChild
-                className="bg-[#ffbd59] hover:bg-[#f0b34f] text-[#1b2f44] font-semibold px-8 py-6 text-base"
+                className="bg-[#f6e7d8] hover:bg-[#edd5bf] text-[#1b2f44] font-semibold px-8 py-6 text-base"
               >
                 <a href={partnerFormUrl} target="_blank" rel="noreferrer">
                   Partner With Us
@@ -119,7 +119,7 @@ export default function Home() {
               <Button
                 asChild
                 variant="outline"
-                className="border-[#ffbd59]/50 hover:bg-[#ffbd59]/10 text-[#ffbd59] px-8 py-6 text-base"
+                className="border-[#f6e7d8]/50 hover:bg-[#f6e7d8]/10 text-[#f6e7d8] px-8 py-6 text-base"
               >
                 <a href={whitePaperUrl} download>
                   View White Paper
@@ -130,7 +130,7 @@ export default function Home() {
             {/* Category Claim */}
             <div className="pt-12 border-t border-[#263b52]">
               <p className="text-white/70 text-sm uppercase tracking-widest mb-3">Category Claim</p>
-              <p className="text-2xl font-bold text-[#ffbd59]">
+              <p className="text-2xl font-bold text-[#f6e7d8]">
                 Prosthetic success shouldn't begin on delivery day.
               </p>
             </div>
@@ -196,13 +196,13 @@ export default function Home() {
             </div>
 
             <div className="bg-gradient-to-br from-[#1b2f44] to-[#14263a] rounded-lg p-8 border border-[#2a3f58]">
-              <h4 className="text-lg font-bold mb-4 text-[#ffbd59]">The Gap</h4>
+              <h4 className="text-lg font-bold mb-4 text-[#f6e7d8]">The Gap</h4>
               <div className="space-y-4 text-white/80">
                 <p>
-                  <span className="font-semibold text-[#ffbd59]">Clinicians</span> lack visibility into baseline neuromuscular readiness.
+                  <span className="font-semibold text-[#f6e7d8]">Clinicians</span> lack visibility into baseline neuromuscular readiness.
                 </p>
                 <p>
-                  <span className="font-semibold text-[#ffbd59]">Patients</span> lack safe space to build control before the stakes are real.
+                  <span className="font-semibold text-[#f6e7d8]">Patients</span> lack safe space to build control before the stakes are real.
                 </p>
                 <p className="pt-4 border-t border-[#2a3f58] text-sm italic">
                   The system begins too late.
@@ -229,29 +229,29 @@ export default function Home() {
 
               <div className="space-y-4">
                 <div className="flex gap-3 items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#ffbd59]/20 border border-[#ffbd59]/50 flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-2 h-2 rounded-full bg-[#ffbd59]" />
+                  <div className="w-6 h-6 rounded-full bg-[#f6e7d8]/20 border border-[#f6e7d8]/50 flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-2 h-2 rounded-full bg-[#f6e7d8]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#ffbd59]">Patients arrive at fitting with trained activation patterns</h4>
+                    <h4 className="font-semibold text-[#f6e7d8]">Patients arrive at fitting with trained activation patterns</h4>
                   </div>
                 </div>
 
                 <div className="flex gap-3 items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#ffbd59]/20 border border-[#ffbd59]/50 flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-2 h-2 rounded-full bg-[#ffbd59]" />
+                  <div className="w-6 h-6 rounded-full bg-[#f6e7d8]/20 border border-[#f6e7d8]/50 flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-2 h-2 rounded-full bg-[#f6e7d8]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#ffbd59]">Clinicians gain readiness insights before calibration</h4>
+                    <h4 className="font-semibold text-[#f6e7d8]">Clinicians gain readiness insights before calibration</h4>
                   </div>
                 </div>
 
                 <div className="flex gap-3 items-start">
-                  <div className="w-6 h-6 rounded-full bg-[#ffbd59]/20 border border-[#ffbd59]/50 flex items-center justify-center flex-shrink-0 mt-1">
-                    <div className="w-2 h-2 rounded-full bg-[#ffbd59]" />
+                  <div className="w-6 h-6 rounded-full bg-[#f6e7d8]/20 border border-[#f6e7d8]/50 flex items-center justify-center flex-shrink-0 mt-1">
+                    <div className="w-2 h-2 rounded-full bg-[#f6e7d8]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-[#ffbd59]">Early adaptation becomes structured, not reactive</h4>
+                    <h4 className="font-semibold text-[#f6e7d8]">Early adaptation becomes structured, not reactive</h4>
                   </div>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#ffbd59]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
+              <div className="absolute inset-0 bg-gradient-to-br from-[#f6e7d8]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
               <img
                 src="https://private-us-east-1.manuscdn.com/sessionFile/E6Ns8rHba5mSjpFr61RBie/sandbox/i7mhxMgJ30UZIarsOnPRZF-img-2_1772147977000_na1fn_YXR0dW5lLXhyLXRyYWluaW5n.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvRTZOczhySGJhNW1TanBGcjYxUkJpZS9zYW5kYm94L2k3bWh4TWdKMzBVWklhcnNPblBSWkYtaW1nLTJfMTc3MjE0Nzk3NzAwMF9uYTFmbl9ZWFIwZFc1bExYaHlMWFJ5WVdsdWFXNW4ucG5nP3gtb3NzLXByb2Nlc3M9aW1hZ2UvcmVzaXplLHdfMTkyMCxoXzE5MjAvZm9ybWF0LHdlYnAvcXVhbGl0eSxxXzgwIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=STTaDwUusUbjDSkvGyt6Bv6ZCuGq-GeS0FupJUsl5KhxPiYHFgd3wR9KiDh6eFXiD5bQTYOoh6rkfoavJByVod319Agpyj3D86hiFdPCbAqBZt8tLAej1b4QMvhtzUBXVZpvc8RYCrz~aXmcGSbwJgdBlcVl5prgrRmCjpD7Sjo0CyLG5b2NFiH6FA7KZl8J9Psm7uSWwz96-5Cet-LRRbGvQI8foGrVxrIqD-6prGtVjwEghUdlDMvaQvgRbDGul1kGMn9UZXIg0x8Oe0e39w~r1ZbqosuDWz5o1fAUj-4gbDr2AiVP~ykZOv1XJljqAeXw9SNQmdiWVht3PVq5bg__"
                 alt="XR Training Interface"
@@ -298,8 +298,8 @@ export default function Home() {
 
               <div className="space-y-4">
                 <div className="flex gap-4 items-start">
-                  <div className="w-8 h-8 rounded-full bg-[#ffbd59]/20 border border-[#ffbd59]/50 flex items-center justify-center flex-shrink-0">
-                    <Zap className="w-4 h-4 text-[#ffbd59]" />
+                  <div className="w-8 h-8 rounded-full bg-[#f6e7d8]/20 border border-[#f6e7d8]/50 flex items-center justify-center flex-shrink-0">
+                    <Zap className="w-4 h-4 text-[#f6e7d8]" />
                   </div>
                   <div>
                     <h4 className="font-semibold">Real-time signal processing</h4>
@@ -308,8 +308,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4 items-start">
-                  <div className="w-8 h-8 rounded-full bg-[#ffbd59]/20 border border-[#ffbd59]/50 flex items-center justify-center flex-shrink-0">
-                    <Users className="w-4 h-4 text-[#ffbd59]" />
+                  <div className="w-8 h-8 rounded-full bg-[#f6e7d8]/20 border border-[#f6e7d8]/50 flex items-center justify-center flex-shrink-0">
+                    <Users className="w-4 h-4 text-[#f6e7d8]" />
                   </div>
                   <div>
                     <h4 className="font-semibold">Wireless connectivity</h4>
@@ -318,8 +318,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex gap-4 items-start">
-                  <div className="w-8 h-8 rounded-full bg-[#ffbd59]/20 border border-[#ffbd59]/50 flex items-center justify-center flex-shrink-0">
-                    <Target className="w-4 h-4 text-[#ffbd59]" />
+                  <div className="w-8 h-8 rounded-full bg-[#f6e7d8]/20 border border-[#f6e7d8]/50 flex items-center justify-center flex-shrink-0">
+                    <Target className="w-4 h-4 text-[#f6e7d8]" />
                   </div>
                   <div>
                     <h4 className="font-semibold">Calibration-free operation</h4>
@@ -362,13 +362,13 @@ export default function Home() {
             ].map((step, i) => (
               <div key={i} className="relative">
                 <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58] h-full">
-                  <div className="text-4xl font-bold text-[#ffbd59] mb-3">{step.num}</div>
+                  <div className="text-4xl font-bold text-[#f6e7d8] mb-3">{step.num}</div>
                   <h3 className="text-lg font-bold mb-2">{step.title}</h3>
                   <p className="text-white/70 text-sm">{step.desc}</p>
                 </div>
                 {i < 3 && (
                   <div className="hidden md:flex absolute -right-3 top-1/2 transform -translate-y-1/2 z-10">
-                    <ChevronRight className="w-6 h-6 text-[#ffbd59]" />
+                    <ChevronRight className="w-6 h-6 text-[#f6e7d8]" />
                   </div>
                 )}
               </div>
@@ -383,7 +383,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-12">Clinician Dashboard</h2>
 
           <div className="relative">
-            <div className="absolute inset-0 bg-gradient-to-br from-[#ffbd59]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
+            <div className="absolute inset-0 bg-gradient-to-br from-[#f6e7d8]/20 to-[#1b2f44]/30 rounded-2xl blur-3xl" />
             <img
               src={publicAsset("/dashboard.png")}
               alt="Clinician Dashboard"
@@ -393,19 +393,19 @@ export default function Home() {
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-              <h4 className="font-bold text-[#ffbd59] mb-2">Patient Readiness Overview</h4>
+              <h4 className="font-bold text-[#f6e7d8] mb-2">Patient Readiness Overview</h4>
               <p className="text-white/70 text-sm">
                 Real-time visibility into each patient's activation consistency, engagement levels, and readiness for fitting.
               </p>
             </div>
             <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-              <h4 className="font-bold text-[#ffbd59] mb-2">Engagement Trends</h4>
+              <h4 className="font-bold text-[#f6e7d8] mb-2">Engagement Trends</h4>
               <p className="text-white/70 text-sm">
                 Track training compliance, session frequency, and completion rates to predict success outcomes.
               </p>
             </div>
             <div className="p-6 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-              <h4 className="font-bold text-[#ffbd59] mb-2">Activation Patterns</h4>
+              <h4 className="font-bold text-[#f6e7d8] mb-2">Activation Patterns</h4>
               <p className="text-white/70 text-sm">
                 Detailed muscle activation analytics inform personalized fitting strategies and device programming.
               </p>
@@ -439,7 +439,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="p-8 rounded-lg bg-gradient-to-br from-[#1b2f44] to-[#14263a] border border-[#2a3f58]">
-              <h3 className="text-2xl font-bold mb-4 text-[#ffbd59]">Attune Addresses the Earliest Failure Point</h3>
+              <h3 className="text-2xl font-bold mb-4 text-[#f6e7d8]">Attune Addresses the Earliest Failure Point</h3>
               <p className="text-white/80 leading-relaxed">
                 Untrained muscle intent + unrealistic expectations + blind calibration = early abandonment.
               </p>
@@ -447,7 +447,7 @@ export default function Home() {
 
             <div className="space-y-4">
               <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-                <TrendingUp className="w-6 h-6 text-[#ffbd59] flex-shrink-0 mt-1" />
+                <TrendingUp className="w-6 h-6 text-[#f6e7d8] flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold">Reduce early frustration</h4>
                   <p className="text-white/70 text-sm">Patients arrive prepared and confident</p>
@@ -455,7 +455,7 @@ export default function Home() {
               </div>
 
               <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-                <Target className="w-6 h-6 text-[#ffbd59] flex-shrink-0 mt-1" />
+                <Target className="w-6 h-6 text-[#f6e7d8] flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold">Improve control consistency</h4>
                   <p className="text-white/70 text-sm">Motor patterns are established before device fitting</p>
@@ -463,7 +463,7 @@ export default function Home() {
               </div>
 
               <div className="flex gap-4 items-start p-4 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-                <Users className="w-6 h-6 text-[#ffbd59] flex-shrink-0 mt-1" />
+                <Users className="w-6 h-6 text-[#f6e7d8] flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-bold">Increase sustained use</h4>
                   <p className="text-white/70 text-sm">Early success builds long-term device adoption</p>
@@ -472,7 +472,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="p-8 rounded-lg bg-gradient-to-r from-[#ffbd59]/10 to-[#1b2f44]/20 border border-[#ffbd59]/30">
+          <div className="p-8 rounded-lg bg-gradient-to-r from-[#f6e7d8]/10 to-[#1b2f44]/20 border border-[#f6e7d8]/30">
             <p className="text-lg text-white/80 italic font-medium">
               We are building the missing layer between surgery and fitting.
             </p>
@@ -490,7 +490,7 @@ export default function Home() {
               <div>
                 <p className="text-white/70 text-sm mb-2">TAM</p>
                 <p className="text-3xl font-bold">~2M people</p>
-                <p className="text-white/70">living with limb loss in the U.S.</p>
+                <p className="text-white/70">living with limb loss in the U.S. (Caruso and Harrington,2024)</p>
               </div>
 
               <div>
@@ -510,15 +510,15 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-6">B2B2C Platform Model</h3>
               <div className="space-y-4">
                 <div>
-                  <p className="text-[#ffbd59] font-semibold mb-2">Sell to prosthetic clinics</p>
+                  <p className="text-[#f6e7d8] font-semibold mb-2">Sell to prosthetic clinics</p>
                   <p className="text-white/70 text-sm">Annual license + per-patient deployment</p>
                 </div>
                 <div>
-                  <p className="text-[#ffbd59] font-semibold mb-2">Deploy to patients</p>
+                  <p className="text-[#f6e7d8] font-semibold mb-2">Deploy to patients</p>
                   <p className="text-white/70 text-sm">Home-based training with clinician oversight</p>
                 </div>
                 <div>
-                  <p className="text-[#ffbd59] font-semibold mb-2">Improves outcomes + retention</p>
+                  <p className="text-[#f6e7d8] font-semibold mb-2">Improves outcomes + retention</p>
                   <p className="text-white/70 text-sm">Clinics see faster adaptation, higher adoption rates</p>
                 </div>
               </div>
@@ -555,36 +555,36 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-              <h3 className="text-2xl font-bold text-[#ffbd59] mb-6">2026</h3>
+              <h3 className="text-2xl font-bold text-[#f6e7d8] mb-6">2026</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex gap-3 items-start">
-                  <span className="text-[#ffbd59] font-bold">→</span>
+                  <span className="text-[#f6e7d8] font-bold">→</span>
                   <span>MVP launch at NEXUS Conference</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-[#ffbd59] font-bold">→</span>
+                  <span className="text-[#f6e7d8] font-bold">→</span>
                   <span>Pilot partnerships with prosthetic clinics</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-[#ffbd59] font-bold">→</span>
+                  <span className="text-[#f6e7d8] font-bold">→</span>
                   <span>Collect readiness + adaptation data</span>
                 </li>
               </ul>
             </div>
 
             <div className="p-8 rounded-lg bg-[#1b2f44]/50 border border-[#2a3f58]">
-              <h3 className="text-2xl font-bold text-[#ffbd59] mb-6">2027 & Beyond</h3>
+              <h3 className="text-2xl font-bold text-[#f6e7d8] mb-6">2027 & Beyond</h3>
               <ul className="space-y-3 text-white/80">
                 <li className="flex gap-3 items-start">
-                  <span className="text-[#ffbd59] font-bold">→</span>
+                  <span className="text-[#f6e7d8] font-bold">→</span>
                   <span>Multi-site clinical validation</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-[#ffbd59] font-bold">→</span>
+                  <span className="text-[#f6e7d8] font-bold">→</span>
                   <span>Hardware refinement + ML pattern recognition</span>
                 </li>
                 <li className="flex gap-3 items-start">
-                  <span className="text-[#ffbd59] font-bold">→</span>
+                  <span className="text-[#f6e7d8] font-bold">→</span>
                   <span>Seed round + regional expansion</span>
                 </li>
               </ul>
@@ -604,7 +604,7 @@ export default function Home() {
                 <tr className="border-b border-[#2a3f58]">
                   <th className="text-left py-4 px-4 font-semibold text-white/70">Category</th>
                   <th className="text-left py-4 px-4 font-semibold text-white/70">Their Focus</th>
-                  <th className="text-left py-4 px-4 font-semibold text-[#ffbd59]">Attune's Advantage</th>
+                  <th className="text-left py-4 px-4 font-semibold text-[#f6e7d8]">Attune's Advantage</th>
                 </tr>
               </thead>
               <tbody>
@@ -629,14 +629,14 @@ export default function Home() {
                   <tr key={i} className="border-b border-[#263b52] hover:bg-[#1b2f44]/30 transition-colors">
                     <td className="py-4 px-4 font-semibold">{row.cat}</td>
                     <td className="py-4 px-4 text-white/70">{row.their}</td>
-                    <td className="py-4 px-4 text-[#ffbd59]">{row.ours}</td>
+                    <td className="py-4 px-4 text-[#f6e7d8]">{row.ours}</td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
 
-          <div className="mt-8 p-6 rounded-lg bg-gradient-to-r from-[#ffbd59]/10 to-[#1b2f44]/20 border border-[#ffbd59]/30">
+          <div className="mt-8 p-6 rounded-lg bg-gradient-to-r from-[#f6e7d8]/10 to-[#1b2f44]/20 border border-[#f6e7d8]/30">
             <p className="text-lg text-white/80 font-semibold">
               We define the pre-prosthetic training category.
             </p>
@@ -671,12 +671,12 @@ export default function Home() {
                   }}
                 />
                 <h3 className="font-bold text-xl mb-1">{member.name}</h3>
-                <p className="text-[#ffbd59] text-base">{member.role}</p>
+                <p className="text-[#f6e7d8] text-base">{member.role}</p>
                 <a
                   href={member.linkedin}
                   target="_blank"
                   rel="noreferrer"
-                  className="mt-4 inline-flex items-center gap-2 text-white/70 hover:text-[#ffbd59] transition-colors"
+                  className="mt-4 inline-flex items-center gap-2 text-white/70 hover:text-[#f6e7d8] transition-colors"
                 >
                   <Linkedin className="w-5 h-5" />
                   <span>LinkedIn</span>
@@ -697,7 +697,7 @@ export default function Home() {
             </p>
             <Button
               asChild
-              className="bg-[#ffbd59] hover:bg-[#f0b34f] text-[#1b2f44] font-semibold px-8 py-6 text-base"
+              className="bg-[#f6e7d8] hover:bg-[#edd5bf] text-[#1b2f44] font-semibold px-8 py-6 text-base"
             >
               <a href={partnerFormUrl} target="_blank" rel="noreferrer">
                 Partner With Attune
@@ -725,45 +725,45 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4 text-[#ffbd59]">Product</h4>
+              <h4 className="font-semibold mb-4 text-[#f6e7d8]">Product</h4>
               <ul className="space-y-2 text-white/70 text-sm">
                 <li>
-                  <a href="#product" className="hover:text-[#ffbd59] transition-colors">
+                  <a href="#product" className="hover:text-[#f6e7d8] transition-colors">
                     Hardware
                   </a>
                 </li>
                 <li>
-                  <a href="#how-it-works" className="hover:text-[#ffbd59] transition-colors">
+                  <a href="#how-it-works" className="hover:text-[#f6e7d8] transition-colors">
                     How It Works
                   </a>
                 </li>
                 <li>
-                  <a href="#roadmap" className="hover:text-[#ffbd59] transition-colors">
+                  <a href="#roadmap" className="hover:text-[#f6e7d8] transition-colors">
                     Roadmap
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4 text-[#ffbd59]">Company</h4>
+              <h4 className="font-semibold mb-4 text-[#f6e7d8]">Company</h4>
               <ul className="space-y-2 text-white/70 text-sm">
                 <li>
-                  <a href="#team" className="hover:text-[#ffbd59] transition-colors">
+                  <a href="#team" className="hover:text-[#f6e7d8] transition-colors">
                     Team
                   </a>
                 </li>
                 <li>
-                  <a href="#market" className="hover:text-[#ffbd59] transition-colors">
+                  <a href="#market" className="hover:text-[#f6e7d8] transition-colors">
                     Market
                   </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4 text-[#ffbd59]">Contact</h4>
+              <h4 className="font-semibold mb-4 text-[#f6e7d8]">Contact</h4>
               <ul className="space-y-2 text-white/70 text-sm">
                 <li>
-                  <a href="mailto:ayang46@asu.edu" className="hover:text-[#ffbd59] transition-colors">
+                  <a href="mailto:ayang46@asu.edu" className="hover:text-[#f6e7d8] transition-colors">
                     Email
                   </a>
                 </li>
