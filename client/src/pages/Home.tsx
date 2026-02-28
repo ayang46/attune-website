@@ -18,13 +18,13 @@ export default function Home() {
       name: "Tanisha Dalwadi",
       role: "XR Systems & Human-Computer Interaction",
       photo: publicAsset("/team/tanisha-dalwadi.jpg"),
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/tanisha-dalwadi",
     },
     {
       name: "Joshua Perez",
       role: "EMG Hardware Systems",
       photo: publicAsset("/team/joshua-perez.jpg"),
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/joshua-perez-40b64a271/",
     },
     {
       name: "Taylor Foster",
@@ -36,13 +36,19 @@ export default function Home() {
       name: "Barnabas Pasztor",
       role: "Neurophysiology & Business Development",
       photo: publicAsset("/team/barnabas-pasztor.jpg"),
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/barnabas-pasztor",
     },
     {
       name: "Alexander Lumala",
       role: "Software Engineering",
       photo: publicAsset("/team/alexander-lumala.jpg"),
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/alexander-lumala-9523b2256",
+    },
+  {
+      name: "Nathaniel Teo",
+      role: "Hardware Engineering",
+      photo: publicAsset("/team/nathaniel-teo.jpg"),
+      linkedin: "https://www.linkedin.com/in/nathaniel-teo-10006124a",
     },
   ];
 
@@ -490,13 +496,13 @@ export default function Home() {
               <div>
                 <p className="text-white/70 text-sm mb-2">TAM</p>
                 <p className="text-3xl font-bold">~2M people</p>
-                <p className="text-white/70">living with limb loss in the U.S. (Caruso and Harrington,2024)</p>
+                <p className="text-white/70">living with limb loss in the U.S. (Caruso and Harrington, 2024)</p>
               </div>
 
               <div>
                 <p className="text-white/70 text-sm mb-2">Annual Incidence</p>
                 <p className="text-3xl font-bold">~185K</p>
-                <p className="text-white/70">new amputations annually (U.S.)</p>
+                <p className="text-white/70">new amputations annually (U.S.) (Spencer et al., 2019)</p>
               </div>
 
               <div>
