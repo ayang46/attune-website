@@ -4,9 +4,17 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 const plugins = [react(), tailwindcss()];
+const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
+const isUserOrOrgPagesRepo = Boolean(repoName && repoName.endsWith(".github.io"));
+const defaultBase = isUserOrOrgPagesRepo ? "/" : "/attune/";
+const base = process.env.GITHUB_ACTIONS === "true" && repoName
+  ? isUserOrOrgPagesRepo
+    ? "/"
+    : `/${repoName}/`
+  : defaultBase;
 
 export default defineConfig({
-  base: "/attune-website/",
+  base,
   plugins,
   resolve: {
     alias: {
