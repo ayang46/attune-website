@@ -779,7 +779,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-[#2a3f58] pt-8 flex flex-col sm:flex-row items-center justify-between">
-            <p className="text-white/50 text-sm">© 2026 Attune LLC. All rights reserved.</p>
+            <p className="text-white/50 text-sm">© 2026 Attune. All rights reserved.</p>
             <p className="text-white/50 text-sm">The Luminosity Lab</p>
           </div>
         </div>

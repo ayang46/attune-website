@@ -1,4 +1,4 @@
-# Attune LLC Website Design Brainstorm
+# Attune Website Design Brainstorm
 
 ## Response 1: Clinical Precision + Warm Humanity (Probability: 0.08)
 

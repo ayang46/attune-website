@@ -6,7 +6,7 @@ import { defineConfig } from "vite";
 const plugins = [react(), tailwindcss()];
 const repoName = process.env.GITHUB_REPOSITORY?.split("/")[1];
 const isUserOrOrgPagesRepo = Boolean(repoName && repoName.endsWith(".github.io"));
-const defaultBase = isUserOrOrgPagesRepo ? "/" : "/attune/";
+const defaultBase = "/";
 const base = process.env.GITHUB_ACTIONS === "true" && repoName
   ? isUserOrOrgPagesRepo
     ? "/"

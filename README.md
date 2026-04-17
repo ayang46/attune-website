@@ -130,7 +130,7 @@ The website uses a dark theme with the color scheme:
 
 ## License
 
-© 2026 Attune LLC. All rights reserved.
+© 2026 Attune. All rights reserved.
 
 ## Contact
 
